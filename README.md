@@ -42,7 +42,7 @@ Pressione **Cadastrar** para cadastrar um novo cliente, será aberta uma tela pa
 
 Após inserir os dados, pressione o botão azul **Cadastrar** para inserir as informações no banco de dados, como no exemplo abaixo:
 
-![cadastrar](C:\Users\guibv\Desktop\cadastrar.png)
+![cadastrar](https://github.com/gui-bvr/crud/blob/main/exemplos/cadastrar.png)
 
 Em caso de algum erro, será mostrado um aviso de que algo deu errado:
 
