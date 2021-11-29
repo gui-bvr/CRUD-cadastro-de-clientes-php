@@ -24,7 +24,7 @@ O repositório do projeto deve ser clonado, ou extraído para a pasta de **local
 
 `C:\wamp64\www`
 
-![crud](C:\Users\guibv\Desktop\crud.png)
+![crud](https://raw.githubusercontent.com/gui-bvr/crud/main/exemplos/crud.png)
 
 Para acessar a aplicação, entre com o link abaixo no navegador:
 
@@ -34,7 +34,7 @@ Para acessar a aplicação, entre com o link abaixo no navegador:
 
 Essa é a tela principal após a abertura:
 
-![home](C:\Users\guibv\Desktop\home.png)
+![home](https://raw.githubusercontent.com/gui-bvr/crud/main/exemplos/home.png)
 
 ### Cadastrar
 
@@ -42,15 +42,15 @@ Pressione **Cadastrar** para cadastrar um novo cliente, será aberta uma tela pa
 
 Após inserir os dados, pressione o botão azul **Cadastrar** para inserir as informações no banco de dados, como no exemplo abaixo:
 
-![cadastrar](https://github.com/gui-bvr/crud/blob/main/exemplos/cadastrar.png)
+![cadastrar](https://raw.githubusercontent.com/gui-bvr/crud/main/exemplos/cadastrar.png)
 
 Em caso de algum erro, será mostrado um aviso de que algo deu errado:
 
-![erro](C:\Users\guibv\Desktop\erro.png)
+![erro](https://raw.githubusercontent.com/gui-bvr/crud/main/exemplos/erro.png)
 
 Em caso de sucesso, será mostrado um aviso que os dados foram cadastrados com sucesso:
 
-![sucesso](C:\Users\guibv\Desktop\sucesso.png)
+![sucesso](https://raw.githubusercontent.com/gui-bvr/crud/main/exemplos/sucesso.png)
 
 ### Editar
 
