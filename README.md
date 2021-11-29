@@ -1,6 +1,8 @@
 # Aplicação de Cadastro de Clientes
 
-### Aplicação CRUD para cadastro de clientes (nome, telefone idade e e-mail), desenvolvido em PHP, MySQL e Bootstrap 5.
+## Descrição
+
+Aplicação CRUD para cadastro de clientes (nome, telefone idade e e-mail), desenvolvido em PHP, MySQL e Bootstrap 5.
 
 ## Integrantes do Grupo
 
