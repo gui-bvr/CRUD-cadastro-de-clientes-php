@@ -58,6 +58,6 @@ Pressione o botão verde de opções no cadastro que você deseja editar, será 
 
 Será exibida um aviso no caso de sucesso ou erro ao finalizar a edição.
 
-**Apagar**
+### Apagar
 
 Pressione o botão vermelho de opções no cadastro que você deseja apagar, será aberto uma notificação de confirmação se você deseja realmente apagar.
