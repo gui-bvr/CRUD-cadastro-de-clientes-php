@@ -8,9 +8,10 @@
     $input_id = $_POST['id'];
     $input_nome = $_POST['nome'];
     $input_telefone = $_POST['telefone'];
+    $input_idade = $_POST['idade'];
     $input_email = $_POST['email'];
 
-    $selecionar = $db -> prepare("UPDATE pessoas SET nome = '$input_nome', telefone = '$input_telefone', email = '$input_email' WHERE id = '$input_id';");
+    $selecionar = $db -> prepare("UPDATE pessoas SET nome = '$input_nome', telefone = '$input_telefone', idade = '$input_idade', email = '$input_email' WHERE id = '$input_id';");
     $resultado = $selecionar -> execute([$input_nome, $input_telefone, $input_email, $input_id]);
 
     if ($resultado === TRUE) {

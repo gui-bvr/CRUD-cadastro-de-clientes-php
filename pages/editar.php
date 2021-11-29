@@ -75,6 +75,12 @@
                             value="<?php echo $db_pessoas -> telefone; ?>">
                         </div>
                         <div class="mb-3">
+                            <i class="fas fa-calendar-alt"></i>
+                            <label class="form-label font-shippori">Idade:</label>
+                            <input type="number" class="form-control" name="idade" autofocus required
+                            value="<?php echo $db_pessoas -> idade; ?>">
+                        </div>
+                        <div class="mb-3">
                             <i class="fas fa-at"></i>
                             <label class="form-label font-shippori">Email:</label>
                             <input type="email" class="form-control" name="email" autofocus required
@@ -90,6 +96,9 @@
         </div>
     </div>
 </body>
+
+<?php include '../template/footer.php' ?>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/079c8de8d4.js" crossorigin="anonymous"></script>

@@ -29,7 +29,7 @@
             <div class="row pt-4 pb-4">
                 <div class="card">
                     <h5 class="pt-3 font-shippori-bold">&ensp;Cadastrar</h5>
-                    <form class="p-4" method="POST" action="../exec/registrar.php">
+                    <form class="p-4" method="POST" action="../exec/cadastrar.php">
                         <div class="mb-3">
                             <i class="fas fa-user-alt"></i>
                             <label class="form-label font-shippori">Nome Completo:</label>
@@ -39,6 +39,11 @@
                             <i class="fas fa-phone"></i>
                             <label class="form-label font-shippori">Telefone:</label>
                             <input type="number" class="form-control" name="telefone" autofocus required>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-calendar-alt"></i>
+                            <label class="form-label font-shippori">Idade:</label>
+                            <input type="number" class="form-control" name="idade" autofocus required>
                         </div>
                         <div class="mb-3">
                             <i class="fas fa-at"></i>

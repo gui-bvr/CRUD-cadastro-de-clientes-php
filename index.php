@@ -61,8 +61,8 @@
                     if(isset($_GET['alerta']) and $_GET['alerta'] == 'atualizado'){
                 ?>
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                <strong>Os dados foram Atualizados com Sucesso!</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    <strong>Os dados foram Atualizados com Sucesso!</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <?php 
                     }
@@ -73,8 +73,8 @@
                     if(isset($_GET['alerta']) and $_GET['alerta'] == 'apagado'){
                 ?>
                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                <strong>Os dados foram Apagados com Sucesso!</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    <strong>Os dados foram Apagados com Sucesso!</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <?php 
                     }
@@ -85,8 +85,8 @@
                     if(isset($_GET['alerta']) and $_GET['alerta'] == 'erro'){
                 ?>
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                <strong>Algo deu Errado, Tente Novamente!</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    <strong>Algo deu Errado, Tente Novamente!</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <?php 
                     }
@@ -111,6 +111,7 @@
                                 <!-- <th scope="col" colspan="">#</th> -->
                                 <th scope="col" colspan="">Nome</th>
                                 <th scope="col" colspan="">Telefone</th>
+                                <th scope="col" colspan="">Idade</th>
                                 <th scope="col" colspan="">Email</th>
                                 <th scope="col" colspan="2">Opções</th>
                             </tr>
@@ -123,11 +124,12 @@
 
                             <tr>
                                 <!-- <td scope="row"><?php echo $dados->id; ?></td> -->
-                                <td><?php echo $dados->nome; ?></td>
-                                <td><?php echo $dados->telefone; ?></td>
-                                <td><?php echo $dados->email; ?></td>
+                                <td><?php echo $dados -> nome; ?></td>
+                                <td><?php echo $dados -> telefone; ?></td>
+                                <td><?php echo $dados -> idade; ?></td>
+                                <td><?php echo $dados -> email; ?></td>
                                 <td><a class="text-success" href="pages/editar.php?id=<?php echo $dados->id; ?>"><i class="fas fa-user-edit"></i></a></td>
-                                <td><a onclick="return confirm('Você esta certo disso?');" class="text-danger" href="exec/apagar.php?id=<?php echo $dados->id; ?>"><i class="fas fa-user-minus"></i></a></td>
+                                <td><a onclick="return confirm('Você deseja mesmo apagar?');" class="text-danger" href="exec/apagar.php?id=<?php echo $dados -> id; ?>"><i class="fas fa-user-minus"></i></a></td>
                             </tr>
 
                             <?php 
