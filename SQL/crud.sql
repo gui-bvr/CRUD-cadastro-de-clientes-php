@@ -1,4 +1,5 @@
--- Estrutura da tabela `pessoas`
+CREATE DATABASE IF NOT EXISTS `crud` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `crud`;
 
 DROP TABLE IF EXISTS `pessoas`;
 CREATE TABLE IF NOT EXISTS `pessoas` (
