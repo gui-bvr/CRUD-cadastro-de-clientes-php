@@ -32,13 +32,17 @@ Para acessar a aplicação, entre com o link abaixo no navegador:
 
 `localhost/crud-main`
 
+### Banco de Dados
+
+Utilize o arquivo `crud.sql` na pasta `SQL` para criar o banco de dados.
+
 ### Utilização
 
 Essa é a tela principal após a abertura:
 
 ![home](https://raw.githubusercontent.com/gui-bvr/crud/main/exemplos/home.png)
 
-### Cadastrar
+#### Cadastrar
 
 Pressione **Cadastrar** para cadastrar um novo cliente, será aberta uma tela para cadastrar o Nome Completo, Telefone, Idade e E-mail do cliente.
 
@@ -54,12 +58,12 @@ Em caso de sucesso, será mostrado um aviso que os dados foram cadastrados com s
 
 ![sucesso](https://raw.githubusercontent.com/gui-bvr/crud/main/exemplos/sucesso.png)
 
-### Editar
+#### Editar
 
 Pressione o botão verde de opções no cadastro que você deseja editar, será aberto uma pagina para editar as informações.
 
 Será exibida um aviso no caso de sucesso ou erro ao finalizar a edição.
 
-### Apagar
+#### Apagar
 
 Pressione o botão vermelho de opções no cadastro que você deseja apagar, será aberto uma notificação de confirmação se você deseja realmente apagar.
