@@ -18,6 +18,10 @@ Aplicação CRUD para cadastro de clientes (nome, telefone idade e e-mail), dese
 
 ## Passo a Passo para rodar o Projeto
 
+### Banco de Dados
+
+Utilize o arquivo `crud.sql` na pasta `SQL` para criar o banco de dados.
+
 ### Clonagem do Projeto
 
 Para rodar o projeto localmente, é necessário um servidor de desenvolvimento local, como o **XAMPP**, **WAMP** ou **LAMP**. Nesse caso, será usado o WAMP.
@@ -31,10 +35,6 @@ O repositório do projeto deve ser clonado, ou extraído para a pasta de **local
 Para acessar a aplicação, entre com o link abaixo no navegador:
 
 `localhost/crud-main`
-
-### Banco de Dados
-
-Utilize o arquivo `crud.sql` na pasta `SQL` para criar o banco de dados.
 
 ### Utilização
 
