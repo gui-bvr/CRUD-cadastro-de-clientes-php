@@ -4,12 +4,6 @@
 
 Aplicação CRUD para cadastro de clientes (nome, telefone idade e e-mail), desenvolvido em PHP, MySQL e Bootstrap 5.
 
-## Integrantes do Grupo
-
-- Fábio Elias Cypriano
-- Gabriele de Lima Fernandes
-- Guilherme Banzati Viana Ribeiro
-
 ## Requisitos Implementados
 
 - Frontend totalmente responsivel, desenvolvido com Bootstrap 5.
